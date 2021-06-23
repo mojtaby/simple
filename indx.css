@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(30 37 37);
+}
+.text1{
+    font-size: 50px;
+position: absolute;
+left:550px;
+top:180px ;
+width:200;
+background-color: red;
+border-style: solid;
+border-width: 1px;
+border-color: red;
+border-radius: 15px;
+box-shadow:2px 2px 13px 0 red;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.text1 {
+    animation: color-change 5s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color:gold; }
+    20% { color:#38bdff; }
+    40% { color:white; }
+    60% { color:rgb(0, 255, 0); }
+    80% { color:#e900b6; }
+    100% { color:gold; }
+  }
+.text2 {
+font-size: 20px;
+position: absolute;
+left:410px;
+top:250px;
+background-color: red;
+border-style: solid;
+border-width: 1px;
+border-color: red;
+border-radius: 15px;
+box-shadow:2px 2px 13px 0 red;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+  .text2 {
+    animation: color-change 5s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color:gold; }
+    20% { color:#38bdff; }
+    40% { color:white; }
+    60% { color:rgb(0, 255, 0); }
+    80% { color:#e900b6; }
+    100% { color:gold; }
+  }
+div{
+  width: 150px;
+  height: 150px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  border-style:solid;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: red;
+  box-shadow:1px 1px 8px 0 red;
+  animation: mymove 15s infinite;
+}
+@keyframes  mymove{
+    0%    {top: 0px;   left: 0px;  background: red;               border-color: red; box-shadow:1px 1px 8px 0 red;}
+    5%    {top: 100px; left: 0px;  background: rgb(255, 0, 157);  border-color: rgb(255, 0, 157); box-shadow:1px 1px 8px 0 rgb(255, 0, 157);}
+    10%   {top: 200px; left: 0px;  background: rgb(217, 255, 0);  border-color: rgb(217, 255, 0); box-shadow:1px 1px 8px 0 rgb(217, 255, 0);}
+    15%   {top: 300px; left: 0px;  background: rgb(51, 255, 0);   border-color: rgb(51, 255, 0);  box-shadow:1px 1px 8px 0 rgb(51, 255, 0);}
+    20%   {top: 400px; left: 0px;  background: rgb(0, 183, 255);  border-color: rgb(0, 183, 255); box-shadow:1px 1px 8px 0 rgb(0, 183, 255);}
+    25%   {top: 500px; left: 0px;  background: rgb(174, 0, 255);  border-color: rgb(174, 0, 255); box-shadow:1px 1px 8px 0 rgb(174, 0, 255);}
+    30%   {top: 500px; left: 100px;background: rgb(0, 0, 255);    border-color: rgb(0, 0, 255);    box-shadow:1px 1px 8px 0 rgb(0, 0, 255);}
+    35%   {top: 500px; left: 300px;background: rgb(255, 255, 255);border-color: rgb(255, 255, 255);box-shadow:1px 1px 8px 0 rgb(255, 255, 255);}
+    40%   {top: 500px; left: 500px;background: rgb(1, 105, 1);    border-color: rgb(1, 105, 1);   box-shadow:1px 1px 8px 0 rgb(1, 105, 1);}
+    45%   {top: 500px; left: 700px;background: rgb(0, 0, 0);      border-color: rgb(0, 0, 0);     box-shadow:1px 1px 8px 0 rgb(0, 0, 0);}
+    50%   {top: 500px; left: 800px;background: rgb(255, 0, 157);  border-color: rgb(255, 0, 157); box-shadow:1px 1px 8px 0 rgb(255, 0, 157);}
+    55%   {top: 500px; left: 900px;background: red;               border-color: red; box-shadow:1px 1px 8px 0 red;}
+    60%   {top: 500px; left: 1000px;background: rgb(229, 255, 0);  border-color: rgb(229, 255, 0); box-shadow:1px 1px 8px 0 rgb(229, 255, 0);}
+    65%   {top: 500px; left: 1100px;background: rgb(255, 0, 157);  border-color: rgb(255, 0, 157); box-shadow:1px 1px 8px 0 rgb(255, 0, 157);}
+    70%   {top: 300px; left: 1100px;background: rgb(217, 255, 0);  border-color: rgb(217, 255, 0); box-shadow:1px 1px 8px 0 rgb(217, 255, 0);}
+    75%   {top: 200px; left: 1100px;background: rgb(51, 255, 0);   border-color: rgb(51, 255, 0);  box-shadow:1px 1px 8px 0 rgb(51, 255, 0);}
+    80%   {top: 100px; left: 1100px;background: rgb(0, 183, 255);  border-color: rgb(0, 183, 255); box-shadow:1px 1px 8px 0 rgb(0, 183, 255);}
+    85%   {top: 0px;   left: 1100px;background: rgb(174, 0, 255);  border-color: rgb(174, 0, 255); box-shadow:1px 1px 8px 0 rgb(174, 0, 255);}
+    90%   {top: 0px;   left: 500px;background: rgb(0, 0, 255);    border-color: rgb(0, 0, 255);    box-shadow:1px 1px 8px 0 rgb(0, 0, 255);}
+    95%   {top: 0px;   left: 300px;background: rgb(255, 255, 255);border-color: rgb(255, 255, 255);box-shadow:1px 1px 8px 0 rgb(255, 255, 255);}
+    100%  {top: 0px;   left: 0px;background: rgb(1, 105, 1);    border-color: rgb(1, 105, 1);   box-shadow:1px 1px 8px 0 rgb(1, 105, 1);}
+}
+div:hover{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+}
+
